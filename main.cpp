@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    qmlRegisterType<SecureSettings>("ArcGIS.AppFramework.Testing", 1, 0, "SecureSettings");
+    qmlRegisterType<SecureSettings>("StephenQuan.SecureSettingsApp", 1, 0, "SecureSettings");
 
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

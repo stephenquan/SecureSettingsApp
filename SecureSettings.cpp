@@ -11,7 +11,7 @@
 //
 //----------------------------------------------------------------------
 
-QString SecureSettings::m_Service("ArcGIS.AppFramework.Testing");
+QString SecureSettings::m_Service("StephenQuan.SecureSettingsApp");
 
 //----------------------------------------------------------------------
 //

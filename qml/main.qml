@@ -1,7 +1,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.12
-import ArcGIS.AppFramework.Testing 1.0
+import StephenQuan.SecureSettingsApp 1.0
 
 ApplicationWindow {
     id: window
